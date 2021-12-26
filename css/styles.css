@@ -1,5 +1,6 @@
 /* основные селекторы */
 :root {
+  --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --contact-info-color: #757575;
   --accent-color: #2196f3;
@@ -17,7 +18,6 @@ body {
 }
 .link {
   text-decoration: none;
-  color: #212121;
 }
 
 /* селекторы хедера */
@@ -30,6 +30,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .header-logo:hover,
 .header-logo:focus {
@@ -43,14 +44,17 @@ body {
 .header-item {
 }
 .header-link {
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .header-link:hover,
-.header-link:focus,
-.header-link:active {
+.header-link:focus {
+  color: var(--accent-color);
+}
+.current {
   color: var(--accent-color);
 }
 .header-tel {
@@ -107,7 +111,7 @@ body {
 }
 .main-button:hover,
 .main-button:focus {
-  background-color: #2b79b9;
+  background-color: #188ce8;
 }
 .specialities-title {
   font-weight: 700;
@@ -155,6 +159,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+/* селекторы страницы портфолио */
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -168,6 +173,7 @@ body {
   margin: -1px;
 }
 .filter-buttons {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -178,11 +184,12 @@ body {
   cursor: pointer;
 }
 .filter-buttons:hover,
-.filter-buttons:focus,
-.filter-buttons:active {
+.filter-buttons:focus {
+  color: #ffffff;
   background-color: var(--accent-color);
 }
 .project-title {
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -218,6 +225,7 @@ body {
   color: #2196f3;
 }
 .footer-map {
+  font-family: inherit;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -229,7 +237,8 @@ body {
   color: var(--accent-color);
 }
 .footer-tel {
-  font-weight: 500;
+  font-family: inherit;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -240,7 +249,8 @@ body {
   color: #ffffff;
 }
 .footer-mail {
-  font-weight: 500;
+  font-family: inherit;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
