@@ -7,7 +7,7 @@
   --secondary-background-color: #2f303a;
 }
 body {
-  color: #212121;
+  color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: "roboto", sans-serif;
   font-size: 14px;
@@ -226,6 +226,7 @@ body {
 }
 .footer-map {
   font-family: inherit;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -238,6 +239,7 @@ body {
 }
 .footer-tel {
   font-family: inherit;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -250,6 +252,7 @@ body {
 }
 .footer-mail {
   font-family: inherit;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
