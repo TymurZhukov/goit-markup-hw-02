@@ -244,7 +244,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--contact-info-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel:hover,
 .footer-tel:focus {
@@ -257,7 +257,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--contact-info-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail:hover,
 .footer-mail:focus {
